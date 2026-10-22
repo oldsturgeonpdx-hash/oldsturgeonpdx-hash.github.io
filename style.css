@@ -98,3 +98,26 @@ a.issue:hover .issue-title { text-decoration: underline; text-underline-offset: 
 @media (max-width: 40rem) {
   .frame { aspect-ratio: auto; height: 70vh; min-height: 24rem; }
 }
+
+/* local flipbook additions */
+.local-frame {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flipbook {
+  display: none;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+.page {
+  background-color: #fff;
+  overflow: hidden;
+}
+.page img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}

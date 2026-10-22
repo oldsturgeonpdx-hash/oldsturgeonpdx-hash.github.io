@@ -6,6 +6,10 @@
       Example: https://archive.org/details/old-sturgeon-no-2
                                               ^^^^^^^^^^^^^^^^^ identifier
    3. Paste it into archiveId below, save, and commit the change.
+   
+   OR FOR LOCAL FLIPBOOKS:
+   Leave archiveId empty, and add `localPages: 8` (or however many pages).
+   Then upload your page images to `pages/zineX/01.jpg`, etc.
 ------------------------------------------------------------------- */
 
 const SITE = {
@@ -25,12 +29,12 @@ const ZINES = [
   {
     issue: 2,
     title: "Strangers in a Strange Wetland",
-    blurb: "A nutria tells its own story and pushes back on the label \u201Cinvasive species.\u201D",
+    blurb: "A nutria tells its own story and pushes back on the label “invasive species.”",
     archiveId: ""
   },
   {
     issue: 3,
-    title: "Issue No. 3",      // replace with the real title
+    title: "Issue No. 3",      
     blurb: "",
     archiveId: ""
   },
@@ -42,14 +46,15 @@ const ZINES = [
   },
   {
     issue: 5,
-    title: "Issue No. 5",      // replace with the real title
+    title: "Issue No. 5",      
     blurb: "",
     archiveId: ""
   },
   {
     issue: 6,
-    title: "Issue No. 6",      // replace with the real title
-    blurb: "",
-    archiveId: ""
+    title: "Issue No. 6",     
+    blurb: "Our latest release.",
+    archiveId: "",
+    localPages: 8              // Enables local flipbook reading for 8 images
   }
 ];
