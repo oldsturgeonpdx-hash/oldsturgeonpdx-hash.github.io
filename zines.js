@@ -25,6 +25,7 @@ const ZINES = [
     title: "The Sellwood Sidewalk Sleuth",
     blurb: "A neighborhood walk with riddles along the way.",
     archiveId: ""
+    localPages: 8
   },
   {
     issue: 2,
