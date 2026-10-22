@@ -32,6 +32,7 @@ const ZINES = [
     title: "Strangers in a Strange Wetland",
     blurb: "A nutria tells its own story and pushes back on the label “invasive species.”",
     archiveId: ""
+    localPages: 8
   },
   {
     issue: 3,
