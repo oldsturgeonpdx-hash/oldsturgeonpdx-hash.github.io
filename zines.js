@@ -13,7 +13,7 @@
 ------------------------------------------------------------------- */
 
 const SITE = {
-  name: "The Old Sturgeon",
+  name: "Old Sturgeon PDX",
   tagline: "Neighborhood walks, art, myth and puzzles in handmade mini zines.",
   shopUrl: "",   // paste your Etsy shop link here, e.g. "https://www.etsy.com/shop/..."
   email: ""      // paste a feedback address here, or leave empty to hide it
