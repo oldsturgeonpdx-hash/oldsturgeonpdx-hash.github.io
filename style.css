@@ -121,3 +121,4 @@ a.issue:hover .issue-title { text-decoration: underline; text-underline-offset: 
   object-fit: contain;
   display: block;
 }
+.hint { margin: 0 0 1rem; font-style: italic; opacity: 0.8; }
