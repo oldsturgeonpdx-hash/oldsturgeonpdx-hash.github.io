@@ -51,15 +51,15 @@ const ZINES = [
   {
     issue: 5,
     title: "Issue No. 5",      
-    blurb: "",
-    archiveId: "A honey-sweet recipe for courage.",
+    blurb: "A honey-sweet recipe for courage.",
+    archiveId: "",
     localPages: 8
   },
   {
     issue: 6,
     title: "Issue No. 6",     
-    blurb: "Our latest release.",
-    archiveId: "Two jay cousins, one pandemic, and a very fancy cat-print mask.",
+    blurb: "Two jay cousins, one pandemic, and a very fancy cat-print mask.",
+    archiveId: "",
     localPages: 8              // Enables local flipbook reading for 8 images
   }
 ];
