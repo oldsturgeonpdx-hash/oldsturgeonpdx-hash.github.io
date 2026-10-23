@@ -37,14 +37,14 @@ const ZINES = [
   {
     issue: 3,
     title: "Issue No. 3",      
-    blurb: "",
+    blurb: "Where does Knapp Street go when you can’t see it?",
     archiveId: "",
     localPages: 8
   },
   {
     issue: 4,
     title: "Up and Important in Sellwood and Moreland",
-    blurb: "The Life Lessons Issue: a choose-your-own-path walk.",
+    blurb: "Walk 40 minutes of Sellwood pretending to be extremely important.",
     archiveId: "",
     localPages: 8
   },
@@ -52,14 +52,14 @@ const ZINES = [
     issue: 5,
     title: "Issue No. 5",      
     blurb: "",
-    archiveId: "",
+    archiveId: "A honey-sweet recipe for courage.",
     localPages: 8
   },
   {
     issue: 6,
     title: "Issue No. 6",     
     blurb: "Our latest release.",
-    archiveId: "",
+    archiveId: "Two jay cousins, one pandemic, and a very fancy cat-print mask.",
     localPages: 8              // Enables local flipbook reading for 8 images
   }
 ];
