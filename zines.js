@@ -14,7 +14,7 @@
 
 const SITE = {
   name: "The Old Sturgeon",
-  tagline: "Neighborhood walks, riddles, and puzzles in handmade mini zines.",
+  tagline: "Neighborhood walks, art, myth and puzzles in handmade mini zines.",
   shopUrl: "",   // paste your Etsy shop link here, e.g. "https://www.etsy.com/shop/..."
   email: ""      // paste a feedback address here, or leave empty to hide it
 };
@@ -36,7 +36,7 @@ const ZINES = [
   },
   {
     issue: 3,
-    title: "Issue No. 3",      
+    title: "Secrets of a mole",      
     blurb: "Where does Knapp Street go when you can’t see it?",
     archiveId: "",
     localPages: 8
@@ -50,15 +50,15 @@ const ZINES = [
   },
   {
     issue: 5,
-    title: "Issue No. 5",      
-    blurb: "A honey-sweet recipe for courage.",
+    title: "Honey Loaf: A Recipe for Courage",      
+    blurb: "A honey-sweet recipe, with a wand-waving bee as your guide.",
     archiveId: "",
     localPages: 8
   },
   {
     issue: 6,
-    title: "Issue No. 6",     
-    blurb: "Two jay cousins, one pandemic, and a very fancy cat-print mask.",
+    title: "Cousins",     
+    blurb: "Two jays, one pandemic, and a very fancy cat-print mask.",
     archiveId: "",
     localPages: 8              // Enables local flipbook reading for 8 images
   }
