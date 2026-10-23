@@ -110,7 +110,8 @@
     if (prev && (prev.archiveId || prev.localPages)) nav.append(el("a", { href: "zine.html?issue=" + prev.issue, text: "Previous: No. " + prev.issue }));
     if (next && (next.archiveId || next.localPages)) nav.append(el("a", { href: "zine.html?issue=" + next.issue, text: "Next: No. " + next.issue }));
 
-    main.append(head, frame, links, nav);
+        const hint = el("p", { class: "hint", text: "Click or drag a page corner to turn the page, or swipe on a phone." });
+    main.append(head, hint, frame, links, nav);
 
     if (z.localPages) {
       setTimeout(function() {
