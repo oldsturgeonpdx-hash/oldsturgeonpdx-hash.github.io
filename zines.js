@@ -38,19 +38,22 @@ const ZINES = [
     issue: 3,
     title: "Issue No. 3",      
     blurb: "",
-    archiveId: ""
+    archiveId: "",
+    localPages: 8
   },
   {
     issue: 4,
     title: "Up and Important in Sellwood and Moreland",
     blurb: "The Life Lessons Issue: a choose-your-own-path walk.",
-    archiveId: ""
+    archiveId: "",
+    localPages: 8
   },
   {
     issue: 5,
     title: "Issue No. 5",      
     blurb: "",
-    archiveId: ""
+    archiveId: "",
+    localPages: 8
   },
   {
     issue: 6,
